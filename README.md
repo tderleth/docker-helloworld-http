@@ -2,6 +2,10 @@
 
 Simple 'Hello world' in an HTTP server. (GET /) will return the current hostname.
 
+## Build 
+
+`npm run build`
+
 ## Running a simple test
 
-`docker run --rm -it -p 80:80 tderleth/docker-helloworld-http`
+`npm run`
