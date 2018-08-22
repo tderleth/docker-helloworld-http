@@ -1,0 +1,20 @@
+{
+  "name": "docker-helloworld-http",
+  "version": "1.0.0",
+  "description": "Simple 'Hello world' in an HTTP server. (GET /) will return the current hostname.",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t docker-helloworld-http .",
+    "start": "docker run --rm -it -p 80:80 docker-helloworld-http:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tderleth/docker-helloworld-http.git"
+  },
+  "author": "Thomas Derleth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tderleth/docker-helloworld-http/issues"
+  },
+  "homepage": "https://github.com/tderleth/docker-helloworld-http#readme"
+}
